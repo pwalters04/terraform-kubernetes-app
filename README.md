@@ -2,7 +2,8 @@
 ## Example
 ```hcl
 module "simple_webapp" {
-  source = "app.terraform.io/VeloCloud-Terraform/terraform-kubernetes-app/kubernets"
+  source = "app.terraform.io/VeloCloud-Terraform/app/kubernetes"
+  version = "x.x.x"
   image = "training/webapp"
   name = "simple-webapp"
 
