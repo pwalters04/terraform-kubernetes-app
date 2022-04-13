@@ -14,3 +14,8 @@ module "simple_webapp" {
   }
 }
 ```
+## Resources
+| Name | Type |
+|------|------|
+| [kubernetes_deployment](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/deployment) | resource |
+| [kubernetes_service](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/service) | resource |
